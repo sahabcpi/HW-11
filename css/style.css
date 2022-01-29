@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width:1170px;
+    margin: 0 auto;
+ }
+ .text_center{
+    text-align: center ;
+    
+}
+ .row{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+    
+ }
+
+nav{
+    background-color: #02918c;
+}
+
+
+.logo{
+   width: 25%; 
+}
+.menu{
+width:75%;
+text-align: right;
+}
+nav .menu li{
+    display: inline-block;
+    margin: 12px;
+
+   
+}
+nav .menu li a{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    padding:10px 25px;
+   
+    text-transform: uppercase; 
+    transition: all 0.2s linear; 
+    border-radius: 15%;
+}
+nav .menu ul li:hover a{
+    background-color:#cfc91d;
+
+}
+#banner{
+    height: 728px;
+   
+    background-image:url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+   
+}
+#banner::after{
+    content:'';
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-color: black;
+    top:0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.66;
+
+}
+#banner .content{
+   
+    width: 100%;
+}
+#banner .container,
+#banner .container .row{
+    height: 100%;
+}
+ #banner .content h6{
+    font-size:30px;
+    font: weight 800px;
+    color:#fff
+}
+#banner .content h1{
+    font-size:68px;
+    font-weight:800;
+    letter-spacing: 30px;
+    text-transform:uppercase;
+    color: #fff;
+}
+ #banner div p{
+    font-size: 20px;
+    color: #fff;
+}
+#banner .content .banner_shap{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+#banner .content a{
+    display: inline-block;
+    font-size: ;
+    font-weight: 800;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    background-color: #cfc91d;
+}
+
+#about-section .about_title h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+    padding: 35px;
+
+}
+#about-section .about_title p{
+    font-size: 16px;
+    color: #7e8287;
+    width: 874px;
+    margin: auto;
+    line-height: 41px;
+    color: #7e8287;
+}
+#about-section .about_title p span{
+   font-weight: 800; 
+   font-size: 23px;
+}
+#about-section .row .about_item{
+    width: 25%;
+    padding: 37px 50px;
+    border-right: 1px solid #5e6767;
+}
+#about-section .row .about_item .img{
+    padding: 20px;
+   
+}
+#about-section .row .about_item .child{
+    padding: 20px;
+    font-size: 23px;
+    color: #7e8287;
+}
+#about-section .row .about_item .last_child{
+    font-size: 21px;
+    padding: 20px;
+    color:#7e8287 ;
+}
